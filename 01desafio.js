@@ -4,6 +4,12 @@ let listaHerois = [
   "Ricardo:100",
   "Bruno:2000",
   "Douglas:3000",
+  "Edmilson:4000",
+  "Richard:5000",
+  "Alan:6000",
+  "Marcelo:7000",
+  "Vincent:8000",
+  "Dexter:9000",
   "Renata:1000000",
 ];
 
@@ -26,7 +32,7 @@ function CalculaNivel(xp) {
     return "Bronze!";
   } else if ((xp > 2000) & (xp <= 5000)) {
     return "Prata!";
-  } else if ((xp > 6000) & (xp <= 7000)) {
+  } else if ((xp > 5000) & (xp <= 7000)) {
     return " Ouro!";
   } else if ((xp > 7000) & (xp <= 8000)) {
     return "Platina!";
